@@ -13,6 +13,6 @@
 ::-webkit-scrollbar-thumb {background: #c0dcf3;border-radius: 10px;}
 ::-webkit-scrollbar-thumb:hover {background: #87c4f5;}
 
-#PlainTextEdit {padding:10px;width: 99%;height: 660px;outline: none;border: none;resize: none;}
+#PlainTextEdit {padding:10px;width: 99%;height: 660px;outline: none;border: none;resize: none;font-family: monospace;font-size: 14px;}
 
 @media screen and (max-width : 600px) {.toolbar {width: max-content;}}
