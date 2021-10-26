@@ -6,10 +6,6 @@
 .toolbar-top img {width: 25px;padding: 8px;}
 .toolbar-top img:hover {background: #c0dcf3;}
 
-.toolbar-bottom {position: fixed;bottom: 0px;display: flex;}
-.toolbar-bottom img {width: 20px;padding: 8px;}
-.toolbar-bottom img:hover {background: #c0dcf3;}
-
 .text {padding: 10px;background-size: cover;}
 
 #PlainTextEdit {padding: 10px;width: 1550px;height: 650px;outline: none;border: none;resize: none;}
