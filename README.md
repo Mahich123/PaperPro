@@ -18,6 +18,7 @@ A Lightweight web based Open-source Text Editor.
 
 ## 👨🏼‍🤝‍👨🏼 Contributors
 - [@Mahich123](https://github.com/Mahich123/)
+- [@procrastinar](https://github.com/procrastinar)
 
 ## 🤝 Contributing
 - For major changes or improvement, Open an [issue](https://github.com/sijey-praveen/PaperPro/issues) and mention what you would like to change or add.
