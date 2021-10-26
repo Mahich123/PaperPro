@@ -6,23 +6,29 @@
         <script src="default/js/main.js"></script>
     </head>
     <body>
-        <div class="toolbar" oncontextmenu="return false">
+        <div class="toolbar-top" oncontextmenu="return false">
             <div onclick="saveTextAsFile()"><img src="default/icons/save.svg" alt="Save"></div>
-            <div><img src="default/icons/undo.svg" alt="Undo"></div>
-            <div><img src="default/icons/redo.svg" alt="Redo"></div>
-            <div><img src="default/icons/copy.svg" alt="Copy"></div>
-            <div><img src="default/icons/paste.svg" alt="Paste"></div>
-            <div><img src="default/icons/cut.svg" alt="Cut"></div>
-            <div><img src="default/icons/bold.svg" alt="Bold"></div>
-            <div><img src="default/icons/italic.svg" alt="Italic"></div>
-            <div><img src="default/icons/underline.svg" alt="Underline"></div>
-            <div><img src="default/icons/time_date.svg" alt="Time/Date"></div>
-            <div><img src="default/icons/find_replace.svg" alt="Find/Replace"></div>
-            <div><img src="default/icons/right_align.svg" alt="Right-align"></div>
-            <div><img src="default/icons/center_alignment.svg" alt="Center/Justify"></div>
-            <div><img src="default/icons/left_align.svg" alt="Left-align"></div>
-            <div><img src="default/icons/zoomoption.svg" alt="Search"></div>
+            <div onclick="underdev()"><img src="default/icons/undo.svg" alt="Undo"></div>
+            <div onclick="underdev()"><img src="default/icons/redo.svg" alt="Redo"></div>
+            <div onclick="underdev()"><img src="default/icons/copy.svg" alt="Copy"></div>
+            <div onclick="underdev()"><img src="default/icons/paste.svg" alt="Paste"></div>
+            <div onclick="underdev()"><img src="default/icons/cut.svg" alt="Cut"></div>
+            <div onclick="bold()"><img src="default/icons/bold.svg" alt="Bold"></div>
+            <div onclick="italic()"><img src="default/icons/italic.svg" alt="Italic"></div>
+            <div onclick="underline()"><img src="default/icons/underline.svg" alt="Underline"></div>
+            <div onclick="date_time()"><img src="default/icons/time_date.svg" alt="Time/Date"></div>
+            <div onclick="underdev()"><img src="default/icons/find_replace.svg" alt="Find/Replace"></div>
+            <div onclick="right_align()"><img src="default/icons/right_align.svg" alt="Right-align"></div>
+            <div onclick="center_align()"><img src="default/icons/center_alignment.svg" alt="Center/Justify"></div>
+            <div onclick="left_align()"><img src="default/icons/left_align.svg" alt="Left-align"></div>
+            <div onclick="underdev()"><img src="default/icons/zoomoption.svg" alt="Search"></div>
+            <div onclick="underdev()"><img src="default/icons/gdrive.svg" alt="Google Drive"></div>
         </div>
-        <div><textarea class="editor" id="PlainTextEdit"></textarea></div>
+        <div>
+            <textarea id="PlainTextEdit"></textarea>
+        </div>
+        <div class="toolbar-bottom" oncontextmenu="return false">
+            <div id="stt" onclick="ChromeSpeechToText()"><img src="default/icons/mic.svg" alt="Google Speech to Text"></div>            
+        </div>
     </body>
 </html>
