@@ -3,11 +3,10 @@
 #  PaperPro
 A Lightweight web based Open-source Text Editor.
 
-## 📜 About / Info
+## 📜 About / Features
 - PaperPro is developed for day to day usage, Not for Professional purpose.
 - Easy to use simple text editor.
-- Upload your file to Google Drive
-- Speech To Text via Google Chrome SpeechRecognition.
+- Upload your file to Google Drive.
 
 ## 👉 Requirments
 - Web Browser (Chromium version : 90.0.4430.228 or latest, Firefox version : 90.0.2 or latest) [Microsoft Edge](https://www.microsoft.com/en-us/edge) (Recommended browser)
