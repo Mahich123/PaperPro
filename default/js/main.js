@@ -81,39 +81,3 @@ function bold() {
 function underdev() {
     alert("Feature under Development")
 }
-
-function ChromeSpeechToText() {
-    if (getBrowserName() == "Chrome") {
-        try {
-            var SpeechRecognition = window.webkitSpeechRecognition
-            var recognition = new SpeechRecognition()
-            var Content = ""
-            recognition.continuous = true
-            
-            recognition.onresult = function (event) {
-                var current = event.resultIndex
-                var transcript = event.results[current][0].transcript
-                Content += transcript
-                document.getElementById("PlainTextEdit").value = `${document.getElementById("PlainTextEdit").value} ${Content}`
-            }
-            
-            if (document.getElementById("stt").className === "Stop") {
-                document.getElementById("stt").className = "Start"
-                recognition.stop()
-            } else {
-                document.getElementById("stt").className = "Stop"
-                if (Content.length) {
-                    Content += " "
-                }
-                recognition.start()
-            }    
-        }
-        catch(err) {
-            console.log(`ChromeSpeechToText Error : ${err}`)
-        }    
-    }
-    else {
-        alert("Speech To Text Supports only on chromium based browsers.")
-    }
-}
-
