@@ -4,7 +4,7 @@
 A Lightweight web based Open-source Text Editor.
 
 ## 📜 About / Features
-- PaperPro is developed for day to day usage, Not for Professional purpose.
+- [**PaperPro**](https://paperpro.netlify.app/) is developed for day to day usage, Not for Professional purpose.
 - Easy to use simple text editor.
 - Upload your file to Google Drive.
 
@@ -14,8 +14,7 @@ A Lightweight web based Open-source Text Editor.
 - [Google Account](https://myaccount.google.com/) (Optional)
 
 ## 👓 Live Preview
-- [GitHub Pages](https://sijey-praveen.github.io/PaperPro/)
-- [Netlify](https://paperpro.netlify.app/)
+- [paperpro.netlify.app](https://paperpro.netlify.app/)
 
 ## 👨🏼‍🤝‍👨🏼 Contributors
 - [@Mahich123](https://github.com/Mahich123/)
