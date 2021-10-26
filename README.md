@@ -9,6 +9,8 @@ A Lightweight web based Open-source Text Editor.
 - Upload your file to Google Drive
 - Speech To Text via Google Chrome SpeechRecognition.
 
+# Requirments
+- Web Browser (Chromium version : 90.0.4430.228 or latest, Firefox version : 90.0.2 or latest)
 
 # 👓 Live Preview
 - [GitHub Pages](https://sijey-praveen.github.io/PaperPro/)
