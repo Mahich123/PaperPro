@@ -21,5 +21,5 @@ A Lightweight web based Open-source Text Editor.
 - For major changes or improvement, Open an [issue](https://github.com/sijey-praveen/PaperPro/issues) and mention what you would like to change or add.
 
 # 🧾 License
-[![License](https://img.shields.io/badge/Mozilla_Public_License_Version_2.0-000?style=for-the-badge&logo=mozilla&logoColor=white)](https://www.mozilla.org/en-US/MPL/2.0/)
+- [Mozilla Public License Version 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
 
