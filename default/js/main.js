@@ -87,7 +87,7 @@ function ChromeSpeechToText() {
         try {
             var SpeechRecognition = window.webkitSpeechRecognition
             var recognition = new SpeechRecognition()
-            var Content = null
+            var Content = ""
             recognition.continuous = true
             
             recognition.onresult = function (event) {
