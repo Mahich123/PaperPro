@@ -1,8 +1,0 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-
-* {margin: 0;font-family: 'Noto Sans', sans-serif;}
-.toolbar {width: 100%;background: #f0f0f0;display: flex;}
-.toolbar img {width: 25px;padding: 8px;}
-.toolbar img:hover {background: #c0dcf3;}
-.text {padding: 10px;background-size: cover;}
-.editor {width: 1550px;height: 700px;outline: none;border: none;}
