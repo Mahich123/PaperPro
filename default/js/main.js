@@ -26,7 +26,7 @@ function getBrowserName() {
 function saveTextAsFile() {
     var toPlainText = document.getElementById("PlainTextEdit").value
     var File = new Blob([toPlainText], { type: "text/plain" })
-    var FileName = "Untitled.txt"
+    var FileName = document.getElementById("filename").value
 
     var downloadLink = document.createElement("a")
     downloadLink.download = FileName
@@ -35,6 +35,10 @@ function saveTextAsFile() {
     downloadLink.href = window.URL.createObjectURL(File)
     document.body.appendChild(downloadLink)
     downloadLink.click()
+}
+
+function DefaultFileName() {
+    document.getElementById("filename").value = "Untitled.txt"
 }
 
 function date_time() {
@@ -81,3 +85,4 @@ function bold() {
 function underdev() {
     alert("Feature under Development")
 }
+
